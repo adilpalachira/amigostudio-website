@@ -236,6 +236,10 @@ a:focus {
     .nav-item.show{
         display: flex;
     }
+    
+    .navbar{
+        padding: .75rem 0rem .75rem 2.5rem;
+    }
 
   
 }
@@ -276,13 +280,13 @@ a:focus {
 
 @media (max-width: 500px){
     .home .future{
-        font-size: 4rem;
+        font-size: 5rem;
     }
     .home h2{
         font-size: 1.4rem;
     }
     .h-p{
-        font-size: .8rem;
+        font-size: .7rem;
     }
    .home .h-button,
    .home .h-button2{
@@ -290,10 +294,17 @@ a:focus {
         height: 40px;
         font-size: 18px;
     }
+    
+    .home .h-button2{
+        border: .5;
+    }
     .services .serv-thumb{
         margin: 1rem 0 0 0;
     }
-
+    
+    .bottom-footer{
+        font-size: 12px;
+    }
     
 }
 
